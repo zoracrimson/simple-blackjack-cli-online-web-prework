@@ -1,17 +1,19 @@
 def welcome
-  # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-  # code #deal_card here
+  return [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10, 11].sample
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(counter)
+  counter = 1
+  counter += 1
+  puts "Your cards add up to #{counter}"
 end
 
 def prompt_user
-  # code #prompt_user here
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
